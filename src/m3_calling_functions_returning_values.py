@@ -295,7 +295,8 @@ def fancy_sums_of_digits(n):
     """
     x = n ** 1000
     y = n ** 999
-    return sum_of_digits(x ** y)
+    number = x ** y
+    return sum_of_digits(number)
     # ------------------------------------------------------------------
     # DONE: 8. Implement and test this function.
     #
