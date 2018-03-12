@@ -32,7 +32,7 @@ def main():
     #       ** Ask a TA or your professor for help in that case. **
     # ------------------------------------------------------------------
 
-    # m3t_tester.main()
+    m3t_tester.main()
 
 
 def run_test_sum_of_digits():
@@ -295,12 +295,9 @@ def fancy_sums_of_digits(n):
     """
     x = n ** 1000
     y = n ** 999
-    number = x ** y
-    return sum_of_digits(number)
-
-
+    return sum_of_digits(x ** y)
     # ------------------------------------------------------------------
-    # TODO: 8. Implement and test this function.
+    # DONE: 8. Implement and test this function.
     #
     ####################################################################
     # IMPORTANT: CALL, as many times as needed,
