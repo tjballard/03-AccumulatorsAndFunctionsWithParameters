@@ -4,7 +4,7 @@ in its simplest classic forms:
    SUMMING:       total = total + number
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and TJ Ballard.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
